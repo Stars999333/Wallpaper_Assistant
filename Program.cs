@@ -14,6 +14,9 @@ namespace Wallpaper_Assistant
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
+
+            // 运行轮播器
+            Application.Run(new TextScroller());
         }
     }
 }
